@@ -4,61 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-    <style>
-        body {
-            background-color: #f9f9f9;
-            font-family: Arial, sans-serif;
-            padding: 30px 15px;
-        }
-
-        h1 {
-            text-align: center;
-            color: #ff8443;
-        }
-
-        .hobby-card {
-            text-align: center;
-            border: 2px solid #ff8443;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-            background-color: #fff8e1;
-        }
-
-        .hobby-card h3 {
-            color: #ff5443;
-        }
-    </style>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+    <title>My hobby hub</title>
 </head>
 
 <body>
-    <h1>my hobby Cards</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-nd-6 col-lg-4">
-                <div class="hobby-card">
-                    <h3>Drawing</h3>
-                    <p>I love sketching animals and comic characters.</p>
-                </div>
-            </div>
 
-            <div class="col-12 col-nd-12 col-lg-4">
-                <div class="hobby-card">
-                    <h3>football</h3>
-                    <p>i play football every evening with my freinds.</p>
-                </div>
-            </div>
+    <!-- <-!-- container-fluid: stretches to fill the full width of the screen  -->
+    <div class="container-fluid" bg-primary text-white p-4>
+        <h1>my hobby hub</h1>
+        <p>A page about the things i love to do!</p>
+    </div>
 
-            <div class="col-12 col-nd-12 col-lg-4">
-                <div class="hobby-card">
-                    <h3>Reading</h3>
-                    <p>My favourite books are adventure stories.</p>
-                </div>
-            </div>
+    <!-- <-!-- bg-success: green background, white text  -->
+    <div class="bg-warning border border-dark p-3 my-3">
+        <h2>drawing</h2>
+        <p>i enjoy drawing animals and making my own comic strips</p>
+    </div>
+
+    <!-- <-!-- bg-danger: red background, white text -->
+    <div class="bg-danger text-white p-3 my-3">
+        <h2>sports</h2>
+        <p>i play cricket and love going swimming at the weekends</p>
+    </div>
+    </div>
+    <!-- container-fluid footer: full-width dark bar at the bottom-->
+    <div class="container-fluid bg-dark text-white p-3">
+        <p>made with bootstrap - my hobby hub</p>
+    </div>
 </body>
 
 </html>
